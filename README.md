@@ -72,6 +72,11 @@ const server = new ApolloServer({ typeDefs, resolvers });
 server.registerRoutes({ router: Route });
 ```
 
+### Playground
+
+Open URL `http://127.0.0.1:3333/graphql`
+
+
 # Development
 If you want to develop Apollo Server locally you must follow the following instructions:
 
