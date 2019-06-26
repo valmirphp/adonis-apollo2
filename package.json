@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Adpater GraphQl server Apollo v2 for Adonis Framework",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollographql"
+    "url": "https://github.com/valmirphp/adonis-apollo2"
   },
   "keywords": [
     "GraphQL",
@@ -19,5 +21,26 @@
     "Javascript"
   ],
   "author": "Valmir Barbosa <valmir.php@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valmirphp/adonis-apollo2/issues"
+  },
+  "homepage": "https://github.com/valmirphp/adonis-apollo2#readme",
+  "dependencies": {
+    "@adonisjs/framework": "^5.0.9",
+    "apollo-server-core": "^2.6.6",
+    "apollo-upload-server": "^7.1.0"
+  },
+  "devDependencies": {
+    "@adonisjs/bodyparser": "^2.0.9",
+    "@adonisjs/fold": "^4.0.9",
+    "@types/graphql": "^14.2.2",
+    "@apollographql/apollo-upload-server": "^5.0.3",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/bodyparser": "^2.0.9",
+    "graphql": "^14.3.1"
+  }
 }

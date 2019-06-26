@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitReturns": false,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/__tests__", "**/__mocks__"]
+}
