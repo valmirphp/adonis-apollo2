@@ -1,6 +1,6 @@
 {
   "name": "adonis-apollo2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adpater GraphQl server Apollo v2 for Adonis Framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
